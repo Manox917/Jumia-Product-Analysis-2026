@@ -4,7 +4,7 @@
 
 This project analyzes a sample of product listings from Jumia, an e-commerce marketplace, to understand how price, discount depth, ratings, and customer engagement (review counts) relate to one another and the users, insights that a seller or marketplace team could take. The entire workflow data cleaning, threshold definition, flagging, ranking, correlation analysis, and visualization was built in Microsoft Excel, using table-based formulas, named ranges, quartile-based thresholds, and native charts.
 
-What we are to consider is **do price and discounting actually drive customer engagement and satisfaction on this platform, or are other factors at play?**
+What we are to consider is **do price and discounting actually drive customer engagement and satisfaction on this platform.**
 
 ## Dataset Overview
 - **Source:** Product listings exported from Jumia (Kenya), covering household, electronics, and lifestyle categories.
