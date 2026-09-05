@@ -7,7 +7,6 @@ This project analyzes a sample of product listings from Jumia, an e-commerce mar
 What we are to consider is **do price and discounting actually drive customer engagement and satisfaction on this platform, or are other factors at play?**
 
 ## Dataset Overview
-
 - **Source:** Product listings exported from Jumia (Kenya), covering household, electronics, and lifestyle categories.
 - **Size:** 115 products, 6 original columns: `Product`, `Current price`, `old price`, `Discount`, `Review`, `Ratingd`.
 - **Price range:** KSh 38 – KSh 3,750.
