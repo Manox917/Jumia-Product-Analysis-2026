@@ -21,7 +21,6 @@ Raw data issues found and corrected during cleaning:
 - Review counts stored as **negative numbers** (e.g. `-14`), which appears to be a data extraction artifact rather than a true negative quantity.
 - Discount stored as text with a `%` sign.
 
-![Raw data before cleaning](images/raw-data.png)
 
 ## Data Enrichment
 
@@ -55,8 +54,6 @@ All "high/low/strong/weak" categories in this project are defined using the **fi
 
 Every flag returns `"Missing"` — not `0` or blank — when the underlying rating or review data doesn't exist, so the dashboard never silently misrepresents a data gap as poor performance.
 
-![Cleaned dataset with enrichment columns](images/cleaned-data.png)
-
 ## Key Insights
 
 1. **Demand is concentrated, not broad-based.** Only 16 of 57 rated products (28%) meet the "Strong Engagement" threshold (≥14 reviews).
@@ -64,8 +61,6 @@ Every flag returns `"Missing"` — not `0` or blank — when the underlying rati
 3. **A handful of high-discount products carry real reputation risk.** 6 products combine deep discounts with weak ratings (≤3.0); one of them also has the highest review count in the whole dataset.
 4. **Price, discount, and rating are essentially uncorrelated.** All three Pearson correlations tested came out near zero (|r| < 0.15, R² < 0.02).
 5. **The catalog has a solid base of "reliable, average" sellers** — 10 products combine strong engagement with a respectable but not exceptional rating, representing the best low-effort improvement opportunity.
-
-![Pivot tables and ranked product lists](images/pivot-tables.png)
 
 ## Discount Analysis
 
