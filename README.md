@@ -2,7 +2,7 @@
 # Jumia Product Performance Dashboard
 ## Introduction
 
-This project analyzes a sample of product listings from Jumia, an e-commerce marketplace, to understand how price, discount depth, ratings, and customer engagement (review counts) relate to one another and to users- insights that a seller or marketplace team could use. The entire workflow data cleaning, threshold definition, flagging, ranking, correlation analysis, and visualization was built in Microsoft Excel, using table-based formulas, named ranges, quartile-based thresholds, and native charts.
+This project analyzes a sample of product listings from Jumia, an e-commerce marketplace, to understand how price, discount depth, ratings, and customer engagement (in my case I used review) relate to one another and to users' insights that a seller or marketplace team could use. The entire workflow data cleaning, threshold definition, flagging, ranking, correlation analysis, and visualization was built in Microsoft Excel, using table-based formulas, named ranges, quartile-based thresholds, and native charts.
 
 What we need to consider is: Do price and discounting actually drive customer engagement and satisfaction?
 
