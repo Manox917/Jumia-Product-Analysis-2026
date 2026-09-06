@@ -55,7 +55,7 @@ Every flag return `"Missing"` instead of `0` or blank, When the underlying ratin
 2. **Discounting does not reliably drive demand.** 13 of the highest-discount products (≥49%) still fall below the engagement threshold.
 3. **A handful of high-discount products carry real reputation risk.** 6 products combine deep discounts with weak ratings (≤3.0); one of them also has the highest review count in the whole dataset.
 4. **Price, discount, and rating are essentially uncorrelated.** All three Pearson correlations tested came out near zero (|r| < 0.15, R² < 0.02).
-5. **The catalog has a solid base of "reliable, average" sellers** — 10 products combine strong engagement with a respectable but not exceptional rating, representing the best low-effort improvement opportunity.
+5. **The catalog has a solid base of "reliable, average" sellers** 10 products combine strong engagement with a respectable but not exceptional rating, representing the best low-effort improvement opportunity.
 
 ## Discount Analysis
 
