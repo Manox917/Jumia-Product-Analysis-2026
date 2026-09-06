@@ -8,7 +8,7 @@ What we need to consider is: Do price and discounting actually drive customer en
 
 ## Dataset Overview
 - **Source:** Product listings exported from Jumia (Kenya), covering household, electronics, and lifestyle categories.
-- **Size:** 115 products, 6 original columns: `Product`, `Current price`, `old price`, `Discount`, `Review`, `Ratingd.
+- **Size:** 115 products, 6 original columns: `Product`, `Current price`, `old price`, `Discount`, `Review`, `Ratingd`.
 - **Price range:** KSh 38 – KSh 3,750.
 - **Discount range:** 1% – 64%.
 - **Data completeness:** Price and discount data are complete for all 115 products. **Review count and rating are missing for 58 of 115 products (50%)** this gap is preserved and clearly labeled throughout the analysis rather than treated as zero.
