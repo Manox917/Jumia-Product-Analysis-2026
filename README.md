@@ -48,7 +48,7 @@ All high/low/strong/weak categories in this project are defined using the **firs
 - **Many Reviews & Average Rating:** Reviews ≥ 14 AND Rating between 3.0–4.6
 - **Excellent Rating:** Reviews ≥ 14 AND Rating ≥ 4.6
 
-Every flag return `"Missing"` instead of `0` or blank, When the underlying rating or review data doesn't exist, so the dashboard never silently misrepresents a data gap as poor performance.
+Every flag return `Missing` instead of `0` or blank, When the underlying rating or review data doesn't exist, so the dashboard never silently misrepresents a data gap as poor performance.
 ## Key Insights
 
 1. **Demand is concentrated, not broad-based.** Only 16 of 57 rated products (28%) meet the "Strong Engagement" threshold (≥14 reviews).
@@ -69,7 +69,7 @@ Products were split into Low (≤27%), Medium (27–49%), and High (>49%) discou
 
 Contrary to what a common belief may suggest, sales spikes are not because of a discount pattern: the number of reviews for the least discounted products is more than double in comparison with the most discounted products, with their average rating also being higher. The Pearson correlation between discount and review count is equal to **r=-0.14** and **R²=0.02**, which is a very weak negative correlation, indicating that it is consistent with the tier breakdown.
 
-13 products are in the "Promotion Inefficiency" flag (discount ≥49%, reviews <14) nearly half of the High discount tier. Six products combine a high discount with a low rating (≤3.0), the clearest quality-risk segment in the dataset.
+13 products are in the Promotion Inefficiency flag (discount ≥49%, reviews <14) nearly half of the High discount tier. Six products combine a high discount with a low rating (≤3.0), the clearest quality-risk segment in the dataset.
 
 ## Ratings and Reviews Analysis
 
@@ -81,7 +81,7 @@ Rating distribution across the 57 products with data:
 | Average (3.0–4.6) | 26 | 46% |
 | Excellent (>4.6) | 14 | 25% |
 
-Average review count by rating tells an important story to us : **Average-rated products (16.0 avg. reviews) actually out-engage Excellent-rated products (8.0 avg. reviews)**. The correlation between rating and review count is essentially flat (**r = 0.06**), meaning higher-rated products are not the most-reviewed ones on this platform. This suggests visibility and quality are currently decoupled a real opportunity, since improving quality on already-visible "Average" products is likely a faster win than trying to generate visibility for untested high-quality products.
+Average review count by rating tells an important story to us: **Average-rated products (16.0 avg. reviews) actually out-engage Excellent-rated products (8.0 avg. reviews)**. The correlation between rating and review count is essentially flat (**r = 0.06**), meaning higher-rated products are not the most-reviewed ones on this platform. This suggests visibility and quality are currently dissociating a real opportunity, since improving quality on already-visible average products is likely a faster way forward than trying to generate visibility for untested high-quality products.
 
 Price and rating do not show no meaningful relationship (**r = 0.11**, R² = 0.01) the higher-priced items are not rated meaningfully better or worse than lower-priced ones.
 
@@ -93,19 +93,19 @@ A few individual products stand out from the ranked analysis:
 - **Strong performers (Strong Engagement + Excellent Rating)** from our data 6 products meet both criteria the smallest, most valuable segment in the catalog, and the best candidates for promotional placement since they carry the lowest risk of disappointing a new customer.
 - **Reliable, improvable sellers** 10 products combine high engagement with an Average rating proven demand, with room to move into the Excellent tier through targeted quality or listing improvements.
 ## Conclusion
-This study has revealed that there is no significant linear correlation between price, discount depth, customer rating, or customer reviews on the 115 Jumia products studied. The data does not support the premise that deeper discounts create more attraction among customers or that higher prices represent better quality. However, this dataset reveals two specific patterns that can be put into real use:
+This study has revealed that there is no significant linear correlation between price, discount depth, customer rating, or customer reviews on the 115 Jumia products on our data. The data does not support the premise that deeper discounts create more attraction among customers or that higher prices represent better quality. However, this dataset reveals two specific patterns that can be put into real use:
 
-1. A small set of high-discount, low-rating products (6 items), most notably a cordless vacuum cleaner with the platform's highest review count, represents a concentrated reputation risk that deserves direct quality investigation rather than further discounting.
-2. A larger set of high-engagement, average-rated products (10 items) represents the most efficient improvement opportunity in the catalog: these products already have proven demand, so incremental quality or listing improvements are likely to yield a better return than trying to generate new demand from scratch or discounting further.
+1. A small set of high-discount, low-rating products that is from 6 items, like a cordless vacuum cleaner with the platform's highest review count, represents a concentrated reputation risk that deserves direct quality investigation rather than further discounting.
+2. A larger set of high-engagement, average-rated products (10 items) represents the most efficient improvement opportunity in the catalog: these products already have proven to be in demand, so listing improvements are likely to yield a better return than trying to generate new demand from scratch or discounting further.
 
 **Recommended next steps**:
-1. Begin investigating the high discount/low rating items concerning their quality, fulfillment, or listing accuracy. The highest review count is the first to be worked on.
+1. Begin investigating the high discount/low rating items concerning their quality, fulfillment, or listing accuracy. The highest review count will be the first to be worked on.
 2. The 13 "promotion inefficiency" items should be audited for listing content and targeting before any further discounts are put in place.
 3. Proceed with making any extra quality or content modifications for the 10 high-engagement and average-rating products. 
 4. Try to push for an entire collection to be available for the review & rating to be done, as half the catalog is currently invisible to this analysis.
 5. Price & discount should be thought of as secondary tactics, as they do not seem to be efficient forms of measuring engagement/rating level in this research. Need to make any extra quality or content modifications for the 10 high-engagement and average-rating products.
 
 **Limitations:** 
-The dataset does not include sales volume, conversion rate, listing age, product category, or complaints and returns. The correlations mentioned above are drawn from a single data collection and must be validated through experiments, that is, by conducting experiments on controlled discounts. Moreover, it must be understood that only 50% of products have existing data on ratings and reviews.
+The dataset does not include sales volume, conversion rate, listing age, product category, or complaints and returns. The correlations mentioned above are drawn from a single data collection and must be validated through experiments, that is, by conducting experiments on controlled discounts. However, it must be understood that only 50% of products have existing data on ratings and reviews others are missing.
 
 
