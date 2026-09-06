@@ -81,29 +81,25 @@ Rating distribution across the 57 products with data:
 | Average (3.0–4.6) | 26 | 46% |
 | Excellent (>4.6) | 14 | 25% |
 
-Average review count by rating band tells an important story: **Average-rated products (16.0 avg. reviews) actually out-engage Excellent-rated products (8.0 avg. reviews)**. The correlation between rating and review count is essentially flat (**r = 0.06**), meaning higher-rated products are not systematically the most-reviewed ones on this platform. This suggests visibility and quality are currently decoupled — a real opportunity, since improving quality on already-visible "Average" products is likely a faster win than trying to generate visibility for untested high-quality products.
+Average review count by rating tells an important story to us : **Average-rated products (16.0 avg. reviews) actually out-engage Excellent-rated products (8.0 avg. reviews)**. The correlation between rating and review count is essentially flat (**r = 0.06**), meaning higher-rated products are not the most-reviewed ones on this platform. This suggests visibility and quality are currently decoupled a real opportunity, since improving quality on already-visible "Average" products is likely a faster win than trying to generate visibility for untested high-quality products.
 
-Price and rating also show no meaningful relationship (**r = 0.11**, R² = 0.01) — higher-priced items are not rated meaningfully better or worse than lower-priced ones.
-
-Average review count by rating band tells an important story: **Average-rated products (16.0 avg. reviews) actually out-engage Excellent-rated products (8.0 avg. reviews)**. The correlation between rating and review count is essentially flat (**r = 0.06**), meaning higher-rated products are not systematically the most-reviewed ones on this platform. This suggests visibility and quality are currently decoupled a real opportunity, since improving quality on already-visible "Average" products is likely a faster win than trying to generate visibility for untested high-quality products.
-
-Price and rating also show no meaningful relationship (**r = 0.11**, R² = 0.01) higher-priced items are not rated meaningfully better or worse than lower-priced ones.
+Price and rating do not show no meaningful relationship (**r = 0.11**, R² = 0.01) the higher-priced items are not rated meaningfully better or worse than lower-priced ones.
 
 ## Products
 
 A few individual products stand out from the ranked analysis:
-- **Highest risk: 120W Cordless Vacuum Cleaner** — the single highest review count in the dataset (69) paired with a weak 2.8 rating and a 49% discount. High visibility with a poor quality signal makes this the top candidate for a quality/fulfillment investigation.
-- **Most expensive: 32PCS Portable Cordless Drill Set** — KSh 3,750, the top of the Price tier, but with very limited engagement (5 reviews), raising a visibility question rather than a quality one.
-- **Strong performers (Strong Engagement + Excellent Rating):** 6 products meet both criteria — the smallest, most valuable segment in the catalog, and the best candidates for promotional placement since they carry the lowest risk of disappointing a new customer.
-- **Reliable, improvable sellers:** 10 products combine high engagement with an "Average" rating — proven demand, with room to move into the "Excellent" tier through targeted quality or listing improvements.
+- **Highest risk: 120W Cordless Vacuum Cleaner** the single highest review count in the dataset (69) paired with a weak 2.8 rating and a 49% discount. This is a high visibility with a poor-quality signal making this the top candidate for a qualitative investigation.
+- **Most expensive: 32PCS Portable Cordless Drill Set** KSh 3,750, the top of the Price tier, but with few engagement (5 reviews), raising a visibility question.
+- **Strong performers (Strong Engagement + Excellent Rating)** from our data 6 products meet both criteria the smallest, most valuable segment in the catalog, and the best candidates for promotional placement since they carry the lowest risk of disappointing a new customer.
+- **Reliable, improvable sellers** 10 products combine high engagement with an Average rating proven demand, with room to move into the Excellent tier through targeted quality or listing improvements.
 ## Conclusion
 This study has revealed that there is no significant linear correlation between price, discount depth, customer rating, or customer reviews on the 115 Jumia products studied. The data does not support the premise that deeper discounts create more attraction among customers or that higher prices represent better quality. However, this dataset reveals two specific patterns that can be put into real use:
 
 1. A **small set of high-discount, low-rating products** (6 items) a cordless vacuum cleaner with the platform's highest review count represent a concentrated reputation risk that deserves direct quality investigation rather than further discounting.
-- **Highest risk: 120W Cordless Vacuum Cleaner** the single highest review count in the dataset (69) paired with a weak 2.8 rating and a 49% discount. High visibility with a poor quality signal makes this the top candidate for a quality/fulfillment investigation.
-- **Most expensive: 32PCS Portable Cordless Drill Set**  KSh 3,750, the top of the Price tier, but with very limited engagement (5 reviews), raising a visibility question rather than a quality one.
-- **Strong performers (Strong Engagement + Excellent Rating):** 6 products meet both criteria the smallest, most valuable segment in the catalog, and the best candidates for promotional placement since they carry the lowest risk of disappointing a new customer.
-- **Reliable, improvable sellers:** 10 products combine high engagement with an "Average" rating proven demand, with room to move into the "Excellent" tier through targeted quality or listing improvements.
+2. **Highest risk: 120W Cordless Vacuum Cleaner** the single highest review count in the dataset (69) paired with a weak 2.8 rating and a 49% discount. High visibility with a poor-quality signal makes this the top candidate for a qualitative investigation.
+3. **Most expensive: 32PCS Portable Cordless Drill Set**  KSh. 3,750, the top of the Price tier, but with very limited engagement (5 reviews), raising a visibility question.
+4. **Strong performers (Strong Engagement + Excellent Rating)** 6 products meet both criteria the smallest, most valuable segment in the catalog, and the best candidates for promotional placement since they carry the lowest risk of disappointing a new customer.
+5. **Reliable, improvable sellers** 10 products combine high engagement with an "Average" rating proven demand, with room to move into the "Excellent" tier through targeted quality or listing improvements.
 
 **Recommended next steps**:
 1. Begin investigating the high discount/low rating items concerning their quality, fulfillment, or listing accuracy. The highest review count is the first to be worked on.
