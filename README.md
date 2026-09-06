@@ -95,11 +95,8 @@ A few individual products stand out from the ranked analysis:
 ## Conclusion
 This study has revealed that there is no significant linear correlation between price, discount depth, customer rating, or customer reviews on the 115 Jumia products studied. The data does not support the premise that deeper discounts create more attraction among customers or that higher prices represent better quality. However, this dataset reveals two specific patterns that can be put into real use:
 
-1. A **small set of high-discount, low-rating products** (6 items) a cordless vacuum cleaner with the platform's highest review count represent a concentrated reputation risk that deserves direct quality investigation rather than further discounting.
-2. **Highest risk: 120W Cordless Vacuum Cleaner** the single highest review count in the dataset (69) paired with a weak 2.8 rating and a 49% discount. High visibility with a poor-quality signal makes this the top candidate for a qualitative investigation.
-3. **Most expensive: 32PCS Portable Cordless Drill Set**  KSh. 3,750, the top of the Price tier, but with very limited engagement (5 reviews), raising a visibility question.
-4. **Strong performers (Strong Engagement + Excellent Rating)** 6 products meet both criteria the smallest, most valuable segment in the catalog, and the best candidates for promotional placement since they carry the lowest risk of disappointing a new customer.
-5. **Reliable, improvable sellers** 10 products combine high engagement with an "Average" rating proven demand, with room to move into the "Excellent" tier through targeted quality or listing improvements.
+1. A small set of high-discount, low-rating products (6 items), most notably a cordless vacuum cleaner with the platform's highest review count, represents a concentrated reputation risk that deserves direct quality investigation rather than further discounting.
+2. A larger set of high-engagement, average-rated products (10 items) represents the most efficient improvement opportunity in the catalog: these products already have proven demand, so incremental quality or listing improvements are likely to yield a better return than trying to generate new demand from scratch or discounting further.
 
 **Recommended next steps**:
 1. Begin investigating the high discount/low rating items concerning their quality, fulfillment, or listing accuracy. The highest review count is the first to be worked on.
